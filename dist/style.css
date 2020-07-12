@@ -1,0 +1,71 @@
+/* Remove all default margin and padding */
+*{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.mydivs{
+    margin: 10px 10px 10px 10px;
+}
+
+h1{
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-bottom: 20px;;
+}
+
+
+#project-name{
+    border: 1px solid darkblue;
+    background-color: #e6f2ff;
+    
+}
+
+#form-container{
+    border: 1px solid;
+    
+}
+
+input{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#control-list{
+    border: 1px solid gray;
+    background-color: lavender;
+    
+}
+.buttons{
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    text-align: center;}
+
+.buttons:hover{
+    color:white;
+    box-shadow: -2px 2px black;
+}
+
+#button-add:hover{
+    border-color: green 2px;
+    background-color: green;
+}
+
+#button-reset:hover{
+    border-color: rgb(128, 0, 28) 2px;
+    background-color:  rgb(128, 0, 28);
+}
+
+#list{
+    border: 1px green solid;
+    
+    background-color: #edf2f2;
+}
+
+li{
+    line-height: 30px;
+}
