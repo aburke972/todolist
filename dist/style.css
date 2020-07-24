@@ -7,10 +7,16 @@
 
 .mydivs{
     margin: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
+header{
+    margin: 10px;
+}
 h1{
     font: 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold
 }
 
 h2{
@@ -43,27 +49,69 @@ input{
     height: 30px;
     width: 120px;
     margin: 10px;
-    text-align: center;}
+    text-align: center;
+    transition-duration: 0.4s;
+    
+}
 
 .buttons:hover{
     color:white;
-    box-shadow: -2px 2px black;
+    padding-left: 3px;
 }
 
-#button-add:hover{
-    border-color: green 2px;
-    background-color: green;
+.button-disabled{
+    opacity: 0.3;
+    cursor: not-allowed;
 }
+
+#button-add{
+    border: 2px solid rgb(10, 95, 10);
+}
+
+#button-remove-item{
+    border: 2px solid rgb(177, 60, 14);
+}
+
+#button-reset{
+    border: 2px solid rgb(128,0,28);
+}
+
+
+/* #button-remove-item{
+    border: 2px solid rgb(214, 96, 28);
+}
+
+#button-reset{
+    border: 2px solid rgb(207, 6, 6);
+} */
+
+#button-add:hover{
+    border-color: rgb(10, 95, 10) 2px;
+    background-color: rgb(25, 112, 25);
+    box-shadow: -3px 3px rgba(25,145,25,0.3);
+}
+
+
+#button-remove-item:hover{
+    border-color: rgb(177, 60, 14) 2px;
+    background-color:  rgb(202, 79, 30);
+    box-shadow: -3px 3px rgba(202, 79, 30,0.3)
+}
+
 
 #button-reset:hover{
     border-color: rgb(128, 0, 28) 2px;
     background-color:  rgb(128, 0, 28);
+    box-shadow: -3px 3px rgba(128, 0, 28,0.3)
+}
+
+#display-list{
+    border: 1px green solid;
+    background-color: #edf2f2;
 }
 
 #list{
-    border: 1px green solid;
-    
-    background-color: #edf2f2;
+    margin: 0 0 0 30px;
 }
 
 li{

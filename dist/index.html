@@ -6,21 +6,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-            <div class="mydivs" id="project-name">div project-name
+            <header>
                 <h1>My items</h1>
-            </div>
-            <div class="mydivs" id="form-container">div form-container
-                <label for="item">
-                    <input id="item-field" type="text" placeholder="your new task">What I want to do:
+            </header>
+
+            <div class="mydivs" id="form-container">
+                <label for="item">What I want to do:
+                    <input id="item-field" type="text" placeholder="your new task">
                     <button class="buttons" id="button-add" type="submit">Add it !</button>
                 </label>
             </div>
-            <div class="mydivs" id="control-list">div control-list
+            <div class="mydivs" id="control-list">
                 <button class="buttons" id="button-reset">Clear list</button>
+               <!--  <button class="buttons" id="button-display">Display list</button> -->
+                <button class="buttons" id="button-remove-item">Remove a task</button>
             </div>
-            <div class="mydivs" id="list">div list
+            <div class="mydivs" id="display-list">
                 <h2>My next tasks to achieve:</h2>
-                <ul id="display-list"></ul>
+                <ol id="list"></ol>
             </div>
 
 
